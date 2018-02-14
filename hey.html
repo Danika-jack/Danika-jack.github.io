@@ -1,1 +1,87 @@
 <h1>Hey</h1>
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://nocoastbias.com/wp-content/uploads/2016/06/nba-cleveland-parade.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 55px;
+      color: navy;
+    }
+    img {
+      width: 200px;
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 200px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(6,5,100,0.5);
+    }
+    body {
+      background: white;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      color: navy;
+      font-size: 13.5px;
+      font-family: Verdana;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://www.slamonline.com/wp-content/uploads/gallery/jr-smith/jrsmith-1.jpg">
+    <h1>J.r. Smith</h1>
+    <ul>
+      <li><a href="http://www.complex.com/sports/2014/09/things-you-probably-dont-know-about-jr-smith/highest-paid-player-china" target="_blank">Facts About Jr Smith</a></li>
+      <li><a href="http://www.zimbio.com/J.R.+Smith/pictures/pro?Page=1" target="_blank">Pictures</a></li>
+      <li><a href="https://www.gq.com/story/jr-smith-cleveland-cavs-always-open" target="_blank">Miscellaneous</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Who is Jr Smith?</h2>
+    <p>Earl Joseph Smith III is an American basketball Player who currently plays for the Cleveland Cavaliers. Jr smith is one of the last few players who came out of Highschool and straight to the league.Like many it took Jr a while to develop into a mature individual as well as a great player. Many argue that his peak came in the 2012-2013 season where he won six-man of the year.</p>
+    <button>Share</button>
+  </article>
+  <article>
+    <h2>Good And Bad Times</h2>
+    <p>In 2007 Jr was convicted for reckless driving that ended up taking his best friends life.He had to serve a 24 day sentence in jail as part of a plea agreement.A couple years later in 2011 he went to China to play because of the lockout the NBA was having. In china he was at one point one of the highest paid athlete but Jr was still immature. In the 2012-2013 season Jr flourished and was ultimately the six-man of the year. From there he silenced most critics not only on game but on how he could conduct himself. </p>
+    <button>Share</button>
+  </article>
+  <article>
+    <h2>Miscellaneous</h2>
+    <p>Jr Smith is a virgo, he also holds the record for most 3 point attempts in a game. Many dont know this but, his real name is Earl and at one point he decided he wanted everyone to address him by his real name as a way to promote his fresh start.</p>
+    <button>Share</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Shared!");
+    });
+  </script>
+</body>
